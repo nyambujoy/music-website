@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1.5fr;
+
+}
+
+.sidebar {
+    background-color: steelblue;
+}
+
+.center {
+    background-color: rgb(20, 19, 19);
+
+}
+
+.top {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 30px;
+    gap: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(206, 200, 200);
+    opacity: 0.7;
+
+}
+
+
+.display {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid rgb(128, 123, 123);
+    border-radius: 4px;
+    outline: none;
+    width: 600px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+
+}
+
+.search-icon {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    height: 75%;
+}
+
+.top-left-bottom {
+    /* background-color: red; */
+    height: 100%;
+    overflow: hidden;
+    /* Ensure no content overflows and causes scrollbar */
+    position: relative;
+
+}
+
+#jazz {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    /* Position the image absolutely within the parent */
+    top: 0;
+    left: 0;
+    ;
+}
+
+.top-right-bottom {
+    /* background-color: purple; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    position: relative;
+}
+
+.trending {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.centered h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.false {
+    display: flex;
+    gap: 50px;
+}
+
+.ruby {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+#Listen {
+    background-color: #4169e1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 20px;
+    margin-left: 50px;
+
+}
+
+#heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(155, 152, 152);
+}
+
+#inside-heart {
+    font-size: 2rem;
+    color: #4169e1;
+    /* Set the color of the heart icon */
+}
+
+.bottom-left {
+    background-color: #0a0f1f;
+    color: white;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.top-heading a {
+    text-decoration: none;
+    color: rgb(206, 200, 200);
+}
+
+.genres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 400px;
+    gap: 25px;
+}
+
+
+.card {
+    height: 90px;
+    width: 250px;
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#pop {
+    background-color: #FF69B4;
+}
+
+#saxo {
+    background-color: #006400;
+}
+
+#rnb {
+    background-color: #8A2BE2;
+}
+
+#country {
+    background-color: #8B4513;
+}
+
+#indie {
+    background-color: #FF6347;
+}
+
+#rock {
+    background-color: #FF4500;
+}
+
+.bottom-right {
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+.end {
+    background-color: white;
+}
